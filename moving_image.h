@@ -218,8 +218,8 @@ public:
   
 private:
 
-  // se separa la lógica de movimiento de la función pública para poder en los movimientos normales
-  // y como funciones auxiliares en los undo/redo/repeat sin registrar nuevos movimientos
+  /* se separa la lógica de movimiento de las funciones públicas para poder usarse en los movimientos normales
+  y como funciones auxiliares en los undo/redo/repeat sin registrar nuevos movimientos */
   
   // mover a la izquierda
   void _move_left(int d) {
