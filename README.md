@@ -6,7 +6,7 @@ Este repositorio contiene el desarrollo del Laboratorio 1 de la asignatura Estru
 
 ## Integrantes
 - Jhostian Matías San Martín Morales
-- Felipe Tilleria Morales Tilleria
+- Felipe Alejandro Tilleria Morales 
 
 ## Profesor encargado
 - José Sebastián Fuentes Sepúlveda
