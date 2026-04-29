@@ -46,10 +46,29 @@ int main() {
   im.rotate();
   im.draw("outputs/rot_4.png");
 
- // loop xd nose si va a servir despues con los stack pero esta chistoso
+  // prueba de undo
+  im.undo();
+  im.draw("outputs/undo_1.png");
+ 
+  im.undo();
+  im.draw("outputs/undo_2.png");
+
+  // prueba de redo
+  im.redo();
+  im.draw("outputs/redo_1.png");
+
+  // prueba de repeat
+  im.repeat();
+  im.draw("outputs/repeat_1.png");
+
+  // prueba de repeat_all
+  im.repeat_all();
+
+  // loop
   while(true) {
     im.draw("outputs/loop.png");
     im.move_right(10);
+    im.rotate();
   }
 
   /* NOTA 1: Si usan el mismo nombre para las imágenes, entonces cada llamada al
